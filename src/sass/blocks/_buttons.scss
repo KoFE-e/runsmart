@@ -21,4 +21,10 @@
         color: #FFFFFF;
         font-size: 16px;
     }
+    &_mini {
+        background: $main-color;
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
 }

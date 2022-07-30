@@ -13,6 +13,33 @@
             font-size: 15px;
         }
     }
+    .footer {
+        &__info {
+            width: 330px;
+            height: 190px;
+            padding: 30px 40px;
+        }
+        &__addr {
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__social {
+            &-item {
+                margin: 0 10px;
+                width: 45px;
+                height: 45px;
+                img {
+                    height: 22px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 991.98px) {
     .header {
@@ -225,6 +252,33 @@
     .button {
         &_mini {
             width: 100px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            height: 190px;
+            padding: 30px 20px;
+        }
+        &__addr {
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__social {
+            &-item {
+                margin: 0 10px;
+                width: 45px;
+                height: 45px;
+                img {
+                    height: 22px;
+                }
+            }
         }
     }
 }
